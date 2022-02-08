@@ -1,9 +1,9 @@
-const boton = document.querySelectorAll("button");
+windows.onload = inicio;
 
-boton.forEach(function(item) {
-   
-    item.addEventListener("click", function ()
-    {
+function inicio() {
+  document.querySelectorAll(".boton")[0].onclick=action1;
+}
 
-    });
-});
+function action1() {
+    document.querySelector(".caja").innerHTML="Hola Mundo";
+}
