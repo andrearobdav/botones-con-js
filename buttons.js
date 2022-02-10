@@ -10,7 +10,7 @@ function inicio() {
 
 
 function action1() {
-    document.querySelector(".caja").innerHTML="2022, no me sorprendas.";
+    document.querySelector(".caja").insertAdjacentHTML("beforeend", "2022, no me sorprendas.");
 }
 
 function action2() {
