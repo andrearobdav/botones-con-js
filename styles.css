@@ -15,7 +15,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 15px;
-    padding: 200px;
+    padding: 80px;
     margin-left: 20%;
     margin-right: 20%;
    align-self: center;
@@ -64,5 +64,11 @@ button:hover {
     grid-row: 2/4;
 }
 
+.caja {
+  
+ display: flex;
+ text-align: center;
+ justify-content: center;
+}
 
 
